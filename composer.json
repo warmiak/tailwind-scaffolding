@@ -1,0 +1,23 @@
+{
+  "name": "warmiak/TailwindScaffolding",
+  "description": "Orendo Laravel Frontend Preset",
+  "keywords": ["Orendo Laravel", "Orendo", "Laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Warmiak",
+      "email": "peter.wolkiewicz@orendo.de"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Orendo\\TailwindScaffolding\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": ["Orendo\\TailwindScaffolding\\OrendoServiceProvider"]
+    }
+  }
+}
